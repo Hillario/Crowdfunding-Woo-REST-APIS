@@ -12,6 +12,9 @@ $woocommerce = new Client(
   ]
 );
 
+//get customer id 2
+print_r($woocommerce->get('customers/2'));
+
 
 ?>
 
